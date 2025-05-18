@@ -4,7 +4,7 @@ Structure:
 
 Initially, an exploratory analysis (Python-Jupyter Notebook) is presented to highlight key relationships between multiple features/variables of different data types (numerical,categorical/object) that are included in a 'Bank Loan Status' dataset (.csv file format). The analysis enables the identification of meaningful insights for predicting whether an individual that wants to apply for a loan will be capable of paying it back or not.
 
-In addition, a demonstration of Data Preprocessing is also provided since it allows to a) handle efficiently possible missing values/entries with respect to each dataset feature and b) modify the categorical features in order to be inserted as ML model inputs(independent variables) during the neural network training process (dropping features/creating dummy variables where applicable)
+In addition, a demonstration of Data Preprocessing is also provided to a) handle efficiently possible missing values/entries with respect to each dataset feature and b) modify the categorical features in order to be inserted as ML model inputs(independent variables) during the neural network training process (dropping features/creating dummy variables where applicable)
 
 Finally, a Deep Learning model (neural network) is constructed that takes the selected bank loan features as model inputs for training purposes,'learns' the key relationships between input-output training data and predicts whether or not a new customer will be capable of paying back the acquired loan.
 
